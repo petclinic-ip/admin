@@ -17,14 +17,14 @@
   </dependencies>
   <distributionManagement>
     <repository>
-      <id>libs-release-local</id>
-      <name>libs-release-local</name>
-      <url>http://ec2-65-0-107-79.ap-south-1.compute.amazonaws.com:8081/content/repositories/libs-release-local/</url>
+      <id>libs-release</id>
+      <name>libs-release</name>
+      <url>http://ec2-65-0-107-79.ap-south-1.compute.amazonaws.com:8082/artifactory/libs-release/</url>
     </repository>
     <snapshotRepository>
-      <id>libs-snapshot-local</id>
-      <name>libs-snapshot-local</name>
-      <url>http://ec2-65-0-107-79.ap-south-1.compute.amazonaws.com:8081/content/repositories/libs-snapshot-local/</url>
+      <id>libs-snapshot</id>
+      <name>libs-snapshot</name>
+      <url>http://ec2-65-0-107-79.ap-south-1.compute.amazonaws.com:8082/artifactory/libs-snapshot/</url>
     </snapshotRepository>
 </distributionManagement>
   
