@@ -15,4 +15,17 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+    <repository>
+      <id>libs-release-local</id>
+      <name>libs-release-local</name>
+      <url>http://ec2-65-0-107-79.ap-south-1.compute.amazonaws.com:8081/content/repositories/libs-release-local/</url>
+    </repository>
+    <snapshotRepository>
+      <id>libs-snapshot-local</id>
+      <name>libs-snapshot-local</name>
+      <url>http://ec2-65-0-107-79.ap-south-1.compute.amazonaws.com:8081/content/repositories/libs-snapshot-local/</url>
+    </snapshotRepository>
+</distributionManagement>
+  
 </project>
