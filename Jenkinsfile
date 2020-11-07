@@ -10,7 +10,7 @@ node("maven-label") {
         // Run the maven build
         withEnv(["MVN_HOME=$mvnHome"]) {
             if (isUnix()) {
-                sh '"$MVN_HOME/bin/mvn" -Dmaven.test.failure.ignore clean deploy'
+                sh '"$MVN_HOME/bin/mvn" -Dsonar.host.url=http://ip-172-31-11-7.ap-south-1.compute.internal:9000/ -Dmaven.test.failure.ignore clean deploy sonar:sonar'
             } else {
                 bat(/"%MVN_HOME%\bin\mvn" -Dmaven.test.failure.ignore clean package/)
             }
